@@ -1,0 +1,10 @@
+package adapter.ex02;
+
+public class Ex02App {
+	public static void main(String[] args) {
+		
+		JinLamyeonAdapter adapter = new JinLamyeonAdapter(new JinLamyeon());
+		System.out.println("계란추가");
+	}
+
+}

@@ -1,0 +1,19 @@
+package site.metacoding.red.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import lombok.RequiredArgsConstructor;
+import site.metacoding.red.domain.users.Users;
+import site.metacoding.red.domain.users.UsersDao;
+
+@RequiredArgsConstructor
+@Service
+public class UsersService {
+	
+	private final UsersDao usersDao;
+	public Users 회원정보보기(Integer id) {
+		Users usersPS = usersDao.findById(id);
+		return usersPS;
+	}
+}

@@ -1,0 +1,8 @@
+package sigleton;
+
+public class App {
+	public static void main(String[] args) {
+		President p1 = new President("이재명");
+		President p2 = new President("이재명");
+	}
+}

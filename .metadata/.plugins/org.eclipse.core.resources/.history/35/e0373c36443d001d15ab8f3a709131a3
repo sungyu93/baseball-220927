@@ -1,0 +1,26 @@
+package adapter.ex01;
+
+// 고객의 클레임이 들어오면 
+// 사과 이메일 보내기
+// 이메일 답장을 DB 저장하기
+public class CustomerService {
+
+	// private Email Email; 이런 라이브러리 필요하다.
+
+	public void acceptClaim(String msg) {
+		// 1. 클레임 받기
+		String acceptMsg = msg;
+		System.out.println("클레임 내용: " + acceptMsg);
+		// 2. 이메일 보내기
+		sendEmail();
+	}
+
+	public void sendEmail() {
+		// email.send();
+	}
+	
+	public void insertResultEmail(String result) {
+		System.err.println("답장을 DB에 저장했습니다: " + result);
+
+	}
+}

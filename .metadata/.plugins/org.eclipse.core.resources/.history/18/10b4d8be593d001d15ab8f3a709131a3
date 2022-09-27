@@ -1,0 +1,20 @@
+package adapter.ex02;
+
+public class JinLamyeon implements Lamyeon{
+
+	private Lamyeon lamyeon;
+	
+	
+	public JinLamyeon(Lamyeon lamyeon) {
+		this.lamyeon = lamyeon;
+	}
+
+
+	@Override
+	public String cook() {
+		System.out.println("라면완성");
+		return JinLamyeon.n
+	}
+	
+
+}

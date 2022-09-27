@@ -1,0 +1,17 @@
+package site.metacoding.red.domain.users;
+
+import java.sql.Timestamp;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import site.metacoding.red.web.dto.request.users.UpdateDto;
+
+@NoArgsConstructor
+@Getter
+public class Users {
+	private Integer id;
+	private String username;
+	private String password;
+	private String email;
+	private Timestamp createdAt;
+}

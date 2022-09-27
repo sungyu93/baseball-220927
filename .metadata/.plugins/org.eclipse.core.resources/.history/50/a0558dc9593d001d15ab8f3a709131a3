@@ -1,0 +1,10 @@
+package adapter.ex02;
+
+public class JinLamyeonAdapter implements Lamyeon{
+
+	@Override
+	public String cook() {
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package strategy;
+
+public class CafeLatte {
+	private final String NAME = "카페라떼";
+	
+	public String make() {
+		return NAME;
+	}
+}

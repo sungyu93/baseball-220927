@@ -1,0 +1,10 @@
+package adapter;
+
+public class AmericanoAdapter implements Coffee{
+
+	@Override
+	public String make() {
+		return null;
+	}
+	
+}

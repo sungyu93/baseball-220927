@@ -1,0 +1,9 @@
+package sigleton;
+
+public class President {
+	private String name;
+	
+	public President(String name) {
+		this.name = name;
+	}
+}

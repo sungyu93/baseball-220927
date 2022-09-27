@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/codingspecialist/baseball.git"/>
+		<item value="https://github.com/SungYu05/SpringBoot-baseball.git"/>
+		<item value="https://github.com/codingspecialist/Springboot-MyBatis-Setting.git"/>
+		<item value="https://github.com/codingspecialist/Springboot-baseball-pivot.git"/>
+		<item value="https://github.com/codingspecialist/Springboot-baseball.git"/>
+		<item value="https://github.com/codingspecialist/blog-green.git"/>
+		<item value="https://github.com/codingspecialist/blog-greenn.git"/>
+		<item value="https://github.com/codingspecialist/blog-green2.git"/>
+		<item value="https://github.com/codingspecialist/Springboot-MyBatis-Board.git"/>
+	</list>
+</section>

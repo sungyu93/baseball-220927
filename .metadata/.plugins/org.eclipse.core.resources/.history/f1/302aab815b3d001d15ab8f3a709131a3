@@ -1,0 +1,21 @@
+package adapter.ex02;
+
+public class JinLamyeonAdapter implements Lamyeon{
+
+	private JinLamyeon jinLamyeon;
+	
+	public JinLamyeonAdapter(JinLamyeon jinLamyeon) {
+		this.jinLamyeon = jinLamyeon;
+	}
+
+
+
+
+	@Override
+	public void cook() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

@@ -1,0 +1,23 @@
+package sigleton;
+
+public class UserService {
+	
+	private static UserService instance = new UserService();
+	
+	public static UserService getInstance() {
+		return instance;
+	}
+	
+	private UserService() {}
+	
+//	public void 회원가입() {
+//		UserDao dao = UserDao.getInstance();
+//		dao.save();
+//	}
+//	
+//	public void 회원목록보기() {
+//		UserDao dao = UserDao.getInstance();
+//		dao.findAll();
+//	}
+
+}

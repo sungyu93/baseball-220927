@@ -1,0 +1,12 @@
+package sigleton;
+
+public class President {
+	
+	static President instance = new President("이재명");
+	
+	private String name;
+	
+	private President(String name) {
+		this.name = name;
+	}
+}

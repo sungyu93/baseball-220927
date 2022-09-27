@@ -1,0 +1,8 @@
+package proxy;
+
+public class BlogServer implements Server{
+	public void request() {
+		System.err.println("요청을 받음");
+	}
+	
+}

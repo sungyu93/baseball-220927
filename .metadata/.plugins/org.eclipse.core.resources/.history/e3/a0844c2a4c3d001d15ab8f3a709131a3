@@ -1,0 +1,13 @@
+package proxy;
+
+public class ProxyServer implements Server {
+
+	private BlogServer server;
+
+	@Override
+	public void request() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

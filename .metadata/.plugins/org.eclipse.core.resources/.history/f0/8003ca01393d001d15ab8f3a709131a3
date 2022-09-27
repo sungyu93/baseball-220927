@@ -1,0 +1,10 @@
+package strategy;
+
+public class Americano {
+	private final String NAME = "아메리카노";
+	//final로 정의한 건 상수니까 대문자로 적는다
+	
+	public String brew() {
+		return NAME;
+	}
+}

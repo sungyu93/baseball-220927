@@ -1,0 +1,5 @@
+package adapter.lib;
+
+public class Email {
+
+}

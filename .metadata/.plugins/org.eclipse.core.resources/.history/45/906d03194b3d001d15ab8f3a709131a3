@@ -1,0 +1,11 @@
+package proxy;
+
+public class BlogServer {
+	public void request() {
+		
+	}
+	
+	public void respnose() {
+		
+	}
+}

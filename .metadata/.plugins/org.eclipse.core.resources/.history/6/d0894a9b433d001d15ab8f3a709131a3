@@ -1,0 +1,5 @@
+package adapter.ex01;
+
+public class EmailSend {
+	public abstract String send();
+}
